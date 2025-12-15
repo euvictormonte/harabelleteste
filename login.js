@@ -7,8 +7,9 @@ function login() {
 
   if (emailDigitado === emailSalvo && senhaDigitada === senhaSalva) {
     alert("Login realizado com sucesso!");
-    window.location.href = "index.html"; // aqui vai sua página de produtos
+    window.location.href = "index.html";
   } else {
     alert("Email ou senha incorretos!");
   }
 }
+
